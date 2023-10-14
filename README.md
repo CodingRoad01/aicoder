@@ -45,3 +45,9 @@ npm run dev
 受 [ailawyer](https://github.com/shuzishengming/ailawyer) 启发.
 
 受 [weekly-report](https://github.com/guaguaguaxia/weekly_report) 启发.
+
+## 示例
+[AI编程专家](https://aicoder.codingroad.space/)
+
+## 说明
+本项目仅供学习交流使用，请自觉遵守当地法律法规。
