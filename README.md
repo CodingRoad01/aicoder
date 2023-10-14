@@ -23,7 +23,7 @@ NEXT_PUBLIC_USE_USER_KEY = false
 
 ## 在本地运行
 
-**由于众所周知的原因，OpenAI API 的域名 api.openai.com 已无法在大陆网络环境下访问，请自行解决网络代理问题。
+由于众所周知的原因，OpenAI API 的域名 api.openai.com 已无法在大陆网络环境下访问，请自行解决网络代理问题。
 
 clone 此 repo，去 [OpenAI](https://beta.openai.com/account/api-keys) 注册一个账号，拿到 API key，放到 `.env` 文件。本地文件 `.env.example` 要改成 `.env`。
 
@@ -43,4 +43,5 @@ npm run dev
 
 ## 感谢
 受 [ailawyer](https://github.com/shuzishengming/ailawyer) 启发.
+
 受 [weekly-report](https://github.com/guaguaguaxia/weekly_report) 启发.
