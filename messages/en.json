@@ -1,0 +1,28 @@
+{
+  "Index": {
+    "title": "AI 编程专家",
+    "description1": "描述你的编程困惑 ",
+    "description2": "编程专家在线答疑",
+    "placeholder": "比如:用Java写一段冒泡排序算法",
+    "simplifierButton": "咨询AI编程专家",
+    "switchLocale": "",
+    "deployWiki": "已废弃",
+    "slogan": "已废弃",
+    "step0": "粘贴你的 OpenAI API Key",
+    "openaiApiKeyPlaceholder": "sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "step1": "已废弃",
+    "helpPageLink": "已废弃",   
+    "step2": "已废弃",
+    "simplifiedContent": "已废弃",
+    "privacyPolicy1": "已废弃",
+    "privacyPolicy2": "已废弃",
+    "paragraphForm": "已废弃",
+    "paragraphFormPrompt": "已废弃",
+    "prompt": "已废弃",
+    "outlineForm": "已废弃",
+    "outlineFormPrompt": "已废弃",
+    "pasteButton": "已废弃",
+    "clearButton": "已废弃",
+    "notice":"已废弃"
+  }
+}

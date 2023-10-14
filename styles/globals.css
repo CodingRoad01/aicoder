@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  .tooltip {
+    position: relative; /* 相对定位 */
+    display: inline-block;
+  }
+
+  .tooltip:after {
+    content: attr(data-tooltip); /* 根据自定义属性显示文字说明 */
+    position: absolute; /* 绝对定位 */
+    z-index: 1; /* 将浮动文本框置于顶层 */
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 5px;
+    display: none; /* 初始状态下不显示 */
+    bottom: 100%; /* 将浮动文本框调整至spn的顶部 */
+    left: 50%; /* 将浮动文本框居中 */
+    transform: translateX(-50%); /* 将浮动文本框水平居中 */
+    width: 200px; /* 浮动文本框的宽度 */
+    white-space: normal; /* 允许内容换行 */
+  }
+
+  .tooltip:hover:after {
+    display: block; /* 鼠标悬停时显示浮动文本框 */
+  }

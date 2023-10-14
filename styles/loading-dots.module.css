@@ -1,0 +1,96 @@
+.loading {
+  display: inline-flex;
+  align-items: center;
+}
+
+.loading .spacer {
+  margin-right: 2px;
+}
+
+.loading span {
+  animation-name: blink;
+  animation-duration: 1.4s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 1px;
+}
+
+.loading span:nth-of-type(2) {
+  animation-delay: 0.2s;
+}
+
+.loading span:nth-of-type(3) {
+  animation-delay: 0.4s;
+}
+
+.loading2 {
+  display: inline-flex;
+  align-items: center;
+}
+
+.loading2 .spacer {
+  margin-right: 2px;
+}
+
+.loading2 span {
+  animation-name: blink;
+  animation-duration: 1.4s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 1px;
+}
+
+.loading2 span:nth-of-type(2) {
+  animation-delay: 0.2s;
+}
+
+.loading2 span:nth-of-type(3) {
+  animation-delay: 0.4s;
+}
+
+.sty1 {
+  white-space: pre-line;
+}
+@keyframes blink {
+  0% {
+    opacity: 0.2;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
+
+  .tooltip {
+    position: relative; /* 相对定位 */
+    display: inline-block;
+  }
+
+  .tooltip:after {
+    content: attr(data-tooltip); /* 根据自定义属性显示文字说明 */
+    position: absolute; /* 绝对定位 */
+    z-index: 1; /* 将浮动文本框置于顶层 */
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 5px;
+    display: none; /* 初始状态下不显示 */
+    bottom: 100%; /* 将浮动文本框调整至spn的顶部 */
+    left: 50%; /* 将浮动文本框居中 */
+    transform: translateX(-50%); /* 将浮动文本框水平居中 */
+    width: 200px; /* 浮动文本框的宽度 */
+  }
+
+  .tooltip:hover:after {
+    display: block; /* 鼠标悬停时显示浮动文本框 */
+  }
